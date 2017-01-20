@@ -15,15 +15,7 @@ class M_autocomplete extends CI_model
 		$query = $this->db->get('data_negara');
 
 		return $query->result_array();
-		/*
-		if ($query->num_rows() > 0) {
-				foreach ($query->result_array() as $row) {
-					$new_row['value'] = htmlentities(stripcslashes($row['aka']));
-					$new_row['label'] = htmlentities(stripcslashes($row['bird']));
-					$row_set[] = $new_row;
-				}
-			echo json_encode($row_set);
-		}*/
+		
 	}
 
 }

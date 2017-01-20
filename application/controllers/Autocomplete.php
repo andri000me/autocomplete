@@ -11,10 +11,6 @@ class Autocomplete extends CI_Controller {
 
 	function index()
 	{
-		//$this->load->view('autocomplete/header');
-		//$this->load->view('autocomplete/form');
-		//$this->load->view('autocomplete/footer');
-
 		$this->load->view('autocomplete');
 	}
 
